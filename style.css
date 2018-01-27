@@ -1,0 +1,70 @@
+/*New code for quote machine */
+body {
+	background-image: url("img/quote_background2.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Dancing Script', cursive;	
+}
+
+/* Old code for quote machine
+/*body {
+	background-color: blue;
+}
+
+.container {
+	margin-top: 50px;
+	padding-top: 10px;
+    padding-bottom: 20px;
+	background-color: purple;
+	border: 3px solid black;
+	box-shadow: 5px 5px 3px #000;
+}*/
+
+.row {
+	margin-top: 10px;
+}
+
+h1 {
+	color: white;
+    font-size: 60px; /* Code for new style */	
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+p {
+	color: white;	
+}
+
+/* Old button code */
+button {	
+	background: white; /* old code */
+	width: 128px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+
